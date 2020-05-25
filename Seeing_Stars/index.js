@@ -27,16 +27,6 @@ const getCoords = (all) => {
   return answer.join('\n') + '\n\n'
 }
 
-/*
-Seeing Stars
-Astronomy, Astrophysics, Astrometry, Astrodynamics, AAAA, 23 points
-Back to Scoreboard
-
-Here is the output from a CCD Camera from a star tracker, identify as many stars as you can! (in image reference coordinates) Note: The camera prints pixels in the following order (x,y): (0,0), (1,0), (2,0)... (0,1), (1,1), (2,1)…
-
-Note that top left corner is (0,0)
-*/
-
 
 const client = new net.Socket();
 client.connect(5013, 'stars.satellitesabove.me', function() {
