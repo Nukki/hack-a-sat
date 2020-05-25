@@ -2,7 +2,7 @@ const fs = require('fs')
 const { exec } = require('child_process');
 const net = require('net');
 
-let imageCounter = 10;
+let imageCounter = 1;
 
 const getCoords = (all) => {
   fs.writeFileSync(__dirname + `/data/image${imageCounter}.txt`, all) // save data to file
