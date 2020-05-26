@@ -25,6 +25,7 @@ Note that top left corner is (0,0).
 * uses [Jimp](https://www.npmjs.com/package/jimp) to generate images from data
 * saves image data in `data` folder
 * saves generated images in `png` folder
+* saves the flag in `flag.txt`
 
 
 ### Run the solution
